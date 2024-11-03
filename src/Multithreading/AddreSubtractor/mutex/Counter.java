@@ -1,4 +1,4 @@
-package Multithreading.AddreSubtractor;
+package Multithreading.AddreSubtractor.mutex;
 
 public class Counter {
 
