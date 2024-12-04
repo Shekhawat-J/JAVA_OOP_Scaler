@@ -1,7 +1,7 @@
 package DesignPattern.Singleton;
 
 public class Client {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         DatabaseConnection databaseConnection1 = DatabaseConnection.createInstance();
         DatabaseConnection databaseConnection2 = DatabaseConnection.createInstance();

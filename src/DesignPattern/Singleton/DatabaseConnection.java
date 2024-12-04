@@ -16,7 +16,8 @@ public class DatabaseConnection {
         this.password = password;
     }
 
-    public static DatabaseConnection createInstance(){
+    public static DatabaseConnection createInstance() throws InterruptedException {
+        Thread.sleep(10);
         if(instance == null){
             instance = new DatabaseConnection();
         }
